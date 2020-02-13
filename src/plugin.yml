@@ -1,0 +1,9 @@
+name: nCoV-Stats
+main: peaksol.ncovstats.nCoVStats
+version: 0.1.0
+author: Peaksol
+commands:
+  ncov:
+    description: '获取 2019-nCoV 的统计信息.'
+    aliases: [2019-ncov, 2019ncov, virus]
+    usage: '/ncov [区域]'
